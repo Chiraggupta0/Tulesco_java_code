@@ -29,7 +29,7 @@ public class arrayofobjects
         students[0]= s1;
         students[1]= s2;
         students[2]= s3;
-        
+        students[3];
 
         for(int i=0;i<students.length;i++)
         {
