@@ -1,4 +1,5 @@
-class computer{
+
+public class computer{
     public void music()
     {
         System.out.println("playing music");
