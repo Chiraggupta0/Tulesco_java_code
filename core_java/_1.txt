@@ -1,0 +1,11 @@
+Camel Casing in java
+best way to write variable ,class etc names
+
+
+class and interface -- Calc,Runable etc  ie first letter is capital
+
+variable and method -- marks, show()  ie all letters are small
+
+constant -- PIE , BRAND  ie all capital letters
+
+we don't use _ while naming files in java we use like showMyMarks -- ie first letter small then first letter capital of every word.
