@@ -12,7 +12,7 @@ public class _8_14abstarctAndAnonymousclass
             public void show()
             {
                 System.out.println("in new show");
-            } 
+            }  
         };
         obj.show();
     }

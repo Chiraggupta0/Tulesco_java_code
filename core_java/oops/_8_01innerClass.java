@@ -25,7 +25,7 @@ public class _8_01innerClass
 
         A.B obj1= obj.new B();
         // if declared static then code would be
-        // A.B obj1=new A.B();
+        // A.B obj1=new A.B();   
         obj1.config();
     }
 }
