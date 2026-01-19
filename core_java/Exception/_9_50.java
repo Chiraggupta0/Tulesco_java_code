@@ -24,7 +24,7 @@ public class _9_50 {
         }
         catch(ChiragException e)
         {
-            System.out.println("custom exception hit "+ e);
+            System.out.println("custom exception hit "+e);
         }
         
         System.out.println(j);
