@@ -1,7 +1,7 @@
 interface Computer
 {
     void code();
-}
+}   
 class Laptop implements Computer 
 {
     public void code()
