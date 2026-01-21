@@ -1,3 +1,5 @@
+// initializing and using thread 
+//  thread will always have a function name as run and will always be called by start
 package core_java.Thread;
 class A extends Thread{
     public void run()
