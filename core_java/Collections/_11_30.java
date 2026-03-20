@@ -35,3 +35,17 @@ public class _11_30 {
     
     }  
 }
+
+// set
+// hashset-Does not maintain order , Fast operations
+// LinkedHashSet--Maintains insertion order.
+// TreeSet--Stores elements in sorted order.
+
+
+// Function	    Use
+// add()	    add element
+// remove()	    remove element
+// contains()	check element
+// size()	    number of elements
+// clear()	    remove all
+// isEmpty()	check empty

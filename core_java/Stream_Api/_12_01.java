@@ -27,7 +27,7 @@ public class _12_01 {
 
 
 
-        // //  i want to take only even values, double it , add both and print it
+        // i want to take only even values, double it , add both and print it
         // int sum=0;
         // for(int n:nums)
         // {

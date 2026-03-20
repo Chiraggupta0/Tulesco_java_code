@@ -15,6 +15,10 @@
 //     2-Linked HAshSet
 
 // list and collection object
+// list follows----
+// Maintains insertion order
+// Allows duplicate elements
+// Supports index-based access
 package core_java.Collections;
 
 import java.util.ArrayList;
@@ -49,3 +53,48 @@ public class _11_17 {
 
     }
 }
+
+
+
+// public class Main {
+
+//     public static void main(String[] args) {
+
+//         List<Integer> list = new ArrayList<>();
+
+//         // add()
+//         list.add(10);
+//         list.add(20);
+//         list.add(30);
+//         list.add(40);
+//         System.out.println("List after add(): " + list);
+
+//         // get()
+//         System.out.println("Element at index 1: " + list.get(1));
+
+//         // set()
+//         list.set(1, 50);
+//         System.out.println("After set(): " + list);
+
+//         // remove()
+//         list.remove(2);
+//         System.out.println("After remove(): " + list);
+
+//         // size()
+//         System.out.println("Size of list: " + list.size());
+
+//         // contains()
+//         System.out.println("Contains 50? " + list.contains(50));
+
+//         // indexOf()
+//         System.out.println("Index of 40: " + list.indexOf(40));
+
+//         // isEmpty()
+//         System.out.println("Is list empty? " + list.isEmpty());
+
+//         // clear()
+//         list.clear();
+//         System.out.println("After clear(): " + list);
+
+//     }
+//}
