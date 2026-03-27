@@ -1,0 +1,47 @@
+package com.telusko.service;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.Arrays;
+
+import org.junit.jupiter.api.Test;
+import com.learning.dao.JavaCourse;
+import com.telusko.service.PurchaseCourse;
+
+class PurchaseCourseTest {
+	
+	PurchaseCourse pc = new PurchaseCourse();
+	@Test
+	void testproceedWithCourse() {
+		PurchaseCourse pc = new PurchaseCourse();
+		boolean status = pc.proceedWithCourse(new JavaCourse());
+		assertTrue(status);
+	}
+	
+	@Test
+//	example of assertFalse;
+	void test()
+	{
+		String str="junit";
+		assertFalse(str.length()<5);
+	}
+	
+	@Test
+	void  testproceedassertfalse()
+	{
+		boolean status = pc.proceedWithCourse(new JavaCourse());
+		assertFalse(status,"it is failed bcz unit is result in true");
+	}
+	  
+// assertArrayEquals method is used to check the arrays --
+//	array element should be same with elements at same indices as in original array
+	
+	@Test
+	void teatArray()
+	{
+		int[] expected= {2,4,6,8};
+		int[] actual= {4,8,6,2};
+		Arrays.sort(actual);
+		assertArrayEquals(expected,actual);
+	}
+}
