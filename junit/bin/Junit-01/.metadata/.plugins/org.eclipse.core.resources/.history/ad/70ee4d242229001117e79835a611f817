@@ -1,0 +1,30 @@
+package com.telusko.learning;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.awt.Shape;
+
+import org.junit.jupiter.api.Test;
+
+class TestTrial {
+
+	@Test
+	void test() {
+		assertEquals(6,6);
+	}
+	@Test
+	void testcomputeSquareArea()
+	{
+		Shapes shape=new Shapes();
+		assertEquals(576,shape.computeSquareArea(24));
+	}
+	
+	@Test
+	void testComputeSquareArea_WithMeaasage()
+	{
+		Shapes shape=new Shapes();
+		assertNotEquals(576,shape.computeSquareArea(24),()->"Message to dev if test case failed");
+
+	}
+
+}

@@ -1,0 +1,36 @@
+package com.telusko.learning;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import com.telsuko.learning.Shapes;
+
+public class TestBeforeAfter {
+	Shapes shape;
+//	it will run first because of before each and it will run for 2 tymes because there are 2 test cases
+	
+	@BeforeEach
+	void init()
+	{
+		shape = new Shapes();
+		System.out.println("Before Test");
+	}
+	
+	
+	@Test
+	void testComputeSquareArea()
+	{
+		
+		assertEquals(78.5 , shape.computeSquareArea(5));
+		System.out.println("square");
+	}
+	
+	@Test
+	void testComputeCircleArea()
+	{
+		assertEquals(78.5,shape.computeCircleArea(5));
+		System.out.println("circle");
+	}
+}
