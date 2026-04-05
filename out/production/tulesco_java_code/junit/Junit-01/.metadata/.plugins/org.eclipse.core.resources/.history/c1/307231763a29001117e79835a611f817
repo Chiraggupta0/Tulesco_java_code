@@ -1,0 +1,27 @@
+package com.telusko.service;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import com.learning.dao.JavaCourse;
+import com.telusko.service.PurchaseCourse;
+
+class PurchaseCourseTest {
+	
+	
+	@Test
+	void testproceedWithCourse() {
+		PurchaseCourse pc = new PurchaseCourse();
+		boolean status = pc.proceedWithCourse(new JavaCourse());
+		assertTrue(status);
+	}
+	
+	@Test
+//	example of assertFalse;
+	void test()
+	{
+		String str="junit";
+		assertFalse(str.length()<5);
+	}
+
+}
