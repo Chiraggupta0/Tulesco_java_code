@@ -1,0 +1,21 @@
+package com.learning;
+
+import static org.junit.jupiter.api.Assertions.assertTimeout;
+
+import java.time.Duration;
+
+import org.junit.jupiter.api.Test;
+
+public class TestingPerformance {
+	
+	@Test
+	void testSortingMethod_Performanc()
+	{
+		SortingArray array= new SortingArray();
+		int unsorted[]= {2,5,1};
+		
+		assertTimeout(Duration.ofMillis(1000),()-> array.sortingArray(unsorted));
+	}
+	
+//	if useing junit4 then we have to use like @Test(timeout=100)
+}
